@@ -1,0 +1,38 @@
+body{
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: black;
+    padding: 30px;
+    border-radius: 250px;
+    margin-top: 50px;
+}
+.signal{
+height: 100px;
+width: 100px;
+background-color: rgb(65, 65,65);
+border-radius: 50px;
+margin: 20px;
+}
+.red{
+    background-color: red ;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: green;
+}
+.stand{
+    height: 400px;
+    width: 40px;
+    background-color: black;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%);
+}
